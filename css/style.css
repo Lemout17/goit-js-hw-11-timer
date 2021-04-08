@@ -1,0 +1,25 @@
+.title {
+  font-size: 20px;
+  color: rgb(241, 6, 6);
+  margin-right: 10px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.value {
+  font-size: 20px;
+  color: rgb(105, 22, 184);
+}
+
+.label {
+  font-size: 15px;
+  color: rgb(3, 211, 3);
+}
