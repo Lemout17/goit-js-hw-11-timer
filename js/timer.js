@@ -1,6 +1,3 @@
-const arrayOfSpans = document.querySelectorAll('.value');
-        
-
 class CountdownTimer {
     constructor({selector, targetDate, name, emoji}) {
         this.selector = selector;
@@ -41,6 +38,7 @@ class CountdownTimer {
 
     
     calculate() {
+        const arrayOfSpans = document.querySelectorAll('.value');
         
         const days = Math.floor(this.date / (1000 * 60 * 60 * 24));
         const hours = this.pad(Math.floor((this.date % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
